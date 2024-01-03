@@ -1,0 +1,632 @@
+/* .............................................max-width 1024px .................................... */
+
+@media screen and (max-width:1024px) {
+    main {
+        overflow: hidden;
+        background-size: cover;
+    }
+    
+    main nav img {
+        width: 185px;
+        margin-left: 30px;
+    }
+    
+    main nav #nav-right {
+        margin-right: 30px;
+    }
+    
+    .feature-section {
+        overflow: hidden;
+    }
+    
+    .feature-section h1 {
+        font-size: 2.5rem;
+    }
+    
+    .feature-section h2 {
+        font-size: 1.4rem;
+        width: 40vw;
+    }
+    
+    .text-content {
+        padding-left: 70px;
+    }
+    
+    #fs1 .graphic-content img {
+        width: 450px;
+    }
+    
+    #fs1 .graphic-content video {
+        width: 350px;
+    }
+    
+    #fs2 .text-content {
+        padding-right: 50px;
+    }
+    
+    #fs2 .graphic-content img {
+        width: 400px;
+    }
+    
+    #fs3 .graphic-content {
+        padding-right: 150px;
+    }
+    
+    #fs3 .graphic-content img {
+        width: 440px;
+    }
+    
+    #fs3 .graphic-content video {
+        width: 275px;
+        transform: translate(-360px, -60px);
+    }
+    
+    #fs4 .graphic-content img {
+        width: 400px;
+    }
+    
+    .faqhead {
+        font-size: 40px;
+    }
+    
+    .faq {
+        height: 70px;
+        font-size: 22px;
+    }
+    
+    .faq img {
+        width: 25px;
+    }
+}
+
+/* ..............................................max-width 768px ..................................... */
+
+@media screen and (max-width:768px) {
+    main {
+        height: 85vh;
+        overflow: hidden;
+        background-size: cover;
+    }
+    
+    main nav img {
+        width: 115px;
+        margin-left: 20px;
+    }
+    
+    main nav {
+        top: 0;
+    }
+    
+    main nav #nav-right {
+        margin-right: 20px;
+    }
+    
+    header {
+        position: absolute;
+        top: 45vh;
+        left: 50vw;
+        transform: translate(-50%, -40%);
+        color: white;
+        width: 100vw;
+        height: 45vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    header h1 {
+        font-family: sans-serif;
+        font-size: 2rem;
+        font-weight: 700;
+        padding-bottom: 7px;
+    }
+    
+    header p {
+        font-family: sans-serif;
+        font-size: 1.1rem;
+        padding: 15px 15px;
+    }
+    
+    #email-section p {
+        font-family: sans-serif;
+        font-size: 1.1rem;
+        padding-bottom: 20px;
+    }
+    
+    .feature-section {
+        height: 130vh;
+        overflow: hidden;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    
+    .feature-section h1 {
+        font-size: 2rem;
+        padding-bottom: 10px;
+    }
+    
+    .feature-section h2 {
+        text-align: center;
+        font-size: 1.15rem;
+        width: 90vw;
+    }
+
+    .text-content {
+        padding-left: 0;
+        width: 100vw;
+        height: 30%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .graphic-content {
+        width: 100vw;
+        height: 70%;
+    }
+    
+    #fs1 .graphic-content img {
+        width: 650px;
+        margin-bottom: 100px;
+    }
+    
+    #fs1 .graphic-content video {
+        width: 500px;
+        transform: translate(0, -53px);
+    }
+    
+    #fs2,
+    #fs4 {
+        flex-direction: column;
+    }
+    
+    #fs2 .text-content {
+        padding-right: 0;
+    }
+    
+    #fs2 .graphic-content img {
+        width: 650px;
+        padding-bottom: 100px;
+    }
+    
+    #fs3 .graphic-content {
+        padding-right: 0px;
+    }
+    
+    #fs3 .graphic-content img {
+        width: 650px;
+    }
+    
+    #fs3 .graphic-content video {
+        width: 400px;
+        transform: translate(-520px, -100px);
+    }
+    
+    #fs4 .graphic-content img {
+        width: 700px;
+        transform: translate(0, 0);
+    }
+    
+    .faqhead {
+        font-size: 40px;
+    }
+    
+    .faq {
+        height: 70px;
+        font-size: 22px;
+    }
+    
+    .faq img {
+        width: 25px;
+    }
+    
+    footer {
+        padding: 20px;
+        flex-wrap: wrap;
+    }
+}
+
+/* .............................................max-width 630px ....................................... */
+
+@media screen and (max-width:630px) {
+    main {
+        height: 85vh;
+        overflow: hidden;
+        background-size: cover;
+    }
+    
+    main nav img {
+        width: 115px;
+        margin-left: 10px;
+    }
+    
+    main nav {
+        top: 5px;
+    }
+    
+    main nav #nav-right {
+        margin-right: 10px;
+    }
+    
+    header {
+        position: absolute;
+        top: 45vh;
+        left: 50vw;
+        transform: translate(-50%, -40%);
+        color: white;
+        width: 90vw;
+        height: 45vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    header h1 {
+        font-family: sans-serif;
+        font-size: 2rem;
+        font-weight: 700;
+        padding-bottom: 7px;
+    }
+    
+    header p {
+        font-family: sans-serif;
+        font-size: 1.2rem;
+        padding: 15px 15px;
+    }
+    
+    #email-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #email-section input {
+        width: 340px;
+        padding: 13px;
+        color: rgb(255, 255, 255);
+        font-size: 17px;
+    }
+    
+    #email-section button {
+        padding: 12px 23px;
+        font-size: 1.1rem;
+        font-weight: 500;
+        margin-left: 10px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+    
+    #email-input-section {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    #email-section p {
+        text-align: center;
+        width: 350px;
+        font-family: sans-serif;
+        font-size: 1.1rem;
+        padding-bottom: 20px;
+    }
+
+    .feature-section {
+        height: 92vh;
+        overflow: hidden;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    
+    .feature-section h1 {
+        font-size: 2rem;
+        padding-bottom: 10px;
+        padding-inline: 18px;
+    }
+    
+    .feature-section h2 {
+        text-align: center;
+        font-size: 1rem;
+        line-height: 1.3rem;
+        width: 90vw;
+    }
+    
+    .text-content {
+        padding-left: 0;
+        width: 100vw;
+        height: 40%;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .graphic-content {
+        width: 100vw;
+        height: 60%;
+    }
+    
+    #fs1 .graphic-content img {
+        width: 380px;
+        margin-bottom: 100px;
+    }
+    
+    #fs1 .graphic-content video {
+        width: 300px;
+        transform: translate(0, -53px);
+    }
+
+    #fs2,
+    #fs4 {
+        flex-direction: column;
+    }
+    
+    #fs2 .text-content {
+        padding-right: 0;
+    }
+    
+    #fs2 .graphic-content img {
+        width: 400px;
+        padding-bottom: 100px;
+    }
+    
+    #fs3 .graphic-content {
+        padding-right: 0;
+        padding-bottom: 50px;
+    }
+    
+    #fs3 .graphic-content img {
+        width: 370px;
+        margin-left: 240px;
+    }
+    
+    #fs3 .graphic-content video {
+        width: 230px;
+        transform: translate(-304px, -61px);
+    }
+
+    #fs4 .graphic-content img {
+        width: 360px;
+        padding-bottom: 50px;
+        transform: translate(0, 0);
+    }
+    
+    .faqhead {
+        margin-top: 30px;
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+    
+    .faq {
+        height: 70px;
+        width: 90vw;
+        font-size: 18px;
+    }
+    
+    .faq img {
+        width: 25px;
+    }
+
+    footer {
+        padding: 0;
+        height: 120vh;
+        flex-direction: column;
+        text-align: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    footer div {
+        width: 100vw;
+    }
+    
+    footer button {
+        margin-left: 43vw;
+    }
+    
+    footer a {
+        padding: 5px 0;
+    }
+}
+
+/* ........................................max-width 380px ....................................... */
+
+@media screen and (max-width:380px) {
+    main {
+        height: 95vh;
+        overflow: hidden;
+        background-size: cover;
+    }
+    
+    header {
+        position: absolute;
+        top: 45vh;
+        left: 50vw;
+        transform: translate(-50%, -30%);
+        color: white;
+        width: 85vw;
+        height: 45vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    #email-section input {
+        width: 280px;
+        padding: 12px;
+        color: #ffffff;
+        font-size: 17px;
+    }
+    
+    #email-section p {
+        text-align: center;
+        width: 300px;
+        line-height: 1.7rem;
+        font-family: sans-serif;
+        font-size: 1.1rem;
+        padding-bottom: 20px;
+    }
+}
+
+/* .......................................max-width 321px ........................................ */
+
+@media screen and (max-width:321px) {
+    main {
+        height: 95vh;
+        overflow: hidden;
+        background-size: cover;
+    }
+    
+    header {
+        position: absolute;
+        top: 45vh;
+        left: 50vw;
+        transform: translate(-50%, -20%);
+        color: white;
+        width: 90vw;
+        height: 45vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    #email-section input {
+        width: 250px;
+        padding: 12px;
+        color: #ffffff;
+        font-size: 17px;
+    }
+    
+    #email-section p {
+        text-align: center;
+        width: 300px;
+        line-height: 1.4rem;
+        font-family: sans-serif;
+        font-size: 1.1rem;
+        padding-bottom: 20px;
+    }
+
+    .feature-section {
+        height: 92vh;
+        overflow: hidden;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    .feature-section h1 {
+        font-size: 2rem;
+        line-height: 2rem;
+        padding-bottom: 15px;
+        padding-inline: 18px;
+    }
+
+    .feature-section h2 {
+        text-align: center;
+        font-size: 1rem;
+        line-height: 1.3rem;
+        width: 90vw;
+    }
+
+    .text-content {
+        padding-left: 0;
+        width: 100vw;
+        height: 40%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .graphic-content {
+        width: 100vw;
+        height: 60%;
+    }
+
+    #fs1 .graphic-content img {
+        width: 280px;
+        margin-bottom: 100px;
+    }
+
+    #fs1 .graphic-content video {
+        width: 200px;
+        transform: translate(0, -53px);
+    }
+
+    #fs2,
+    #fs4 {
+        flex-direction: column;
+    }
+
+    #fs2 .text-content {
+        padding-right: 0;
+    }
+
+    #fs2 .graphic-content img {
+        width: 310px;
+        padding-bottom: 100px;
+    }
+
+    #fs3 .graphic-content {
+        padding-right: 0;
+        padding-bottom: 50px;
+    }
+
+    #fs3 .graphic-content img {
+        width: 300px;
+        margin-left: 190px;
+    }
+
+    #fs3 .graphic-content video {
+        width: 195px;
+        transform: translate(-247px, -37px);
+    }
+
+    #fs4 .graphic-content img {
+        width: 360px;
+        padding-bottom: 50px;
+        transform: translate(0, 0);
+    }
+
+    .faqhead {
+        margin-top: 30px;
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+
+    .faq {
+        height: 70px;
+        width: 90vw;
+        font-size: 18px;
+    }
+
+    .faq img {
+        width: 25px;
+    }
+
+    footer {
+        padding: 0;
+        height: 120vh;
+        flex-direction: column;
+        text-align: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    footer div {
+        width: 100vw;
+    }
+
+    footer button {
+        margin-left: 43vw;
+    }
+
+    footer a {
+        padding: 5px 0;
+    }
+}
